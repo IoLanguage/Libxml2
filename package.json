@@ -1,0 +1,15 @@
+{
+  "name":         "Libxml2",
+  "version":      "0.1",
+  "description":  "Io bindings for libxml2.",
+  "author":       "",
+  "website":      "http://iolanguage.org/",
+  "readme":       "README.md",
+  "protos":       ["Libxml2"],
+  "dependencies": {
+    "libs":     ["xml2"],
+    "headers":  ["libxml/xmlreader.h", "libxml/xmlwriter.h"],
+    "protos":   [],
+    "packages": []
+  }
+}
